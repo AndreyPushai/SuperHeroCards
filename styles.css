@@ -1,0 +1,37 @@
+.card {
+    background: radial-gradient(circle at top left, #ffeaa7, #fab1a0); 
+    padding: 20px; 
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 10px auto;
+    font-family: Arial, sans-serif;
+    color: #2d3436;
+
+}
+
+.header {
+    background: radial-gradient(circle at top left, #ffeaa7, #399bd9);
+    text-align: center; 
+}
+
+.hero-name {
+    text-align: center;
+}
+
+.avatar {
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    display: block;
+    margin: auto; 
+    border: 1px solid #2d3436;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.verification {
+    font-size: 12;
+    color: #636e72;
+    text-align: end;
+    font-style: italic;
+    margin-bottom: 0; 
+}
