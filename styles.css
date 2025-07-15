@@ -6,7 +6,21 @@
     margin: 10px auto;
     font-family: Arial, sans-serif;
     color: #2d3436;
+    display: block;
+    transition: transform 0.3s ease;
 
+}
+
+.center {
+  transform: scale(1);
+  opacity: 1;
+  z-index: 2;
+}
+
+.prev, .next {
+  transform: scale(0.8);
+  opacity: 0.5;
+  z-index: 1;
 }
 
 .header {
@@ -34,4 +48,22 @@
     text-align: end;
     font-style: italic;
     margin-bottom: 0; 
+}
+
+.card.active {
+    display: block;
+    color: re;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cards-container {
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    width: fixed
 }
